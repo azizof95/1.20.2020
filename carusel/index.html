@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lesson 15</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="section-1">
+    <div class="container my-5">
+        <div class="subtitle"> Namunaviy test topshiriqlari</div>
+
+        <div class="owl-carousel owl-theme first-owl">
+           <div class="card sec1card">
+               <img class="img-fluid" src="images/1.png" alt="">
+               <div class="sec1text1">
+                   Matematika
+               </div>
+           </div>
+            <div class="card sec1card">
+                <img class="img-fluid" src="images/2.png" alt="">
+                <div class="sec1text1">
+                    Ingliz tili
+                </div>
+            </div>
+            <div class="card sec1card">
+                <img class="img-fluid" src="images/3.png" alt="">
+                <div class="sec1text1">
+                    Rus tili
+                </div>
+            </div>
+            <div class="card sec1card">
+                <img class="img-fluid" src="images/4.png" alt="">
+                <div class="sec1text1">
+                    Geografiya
+                </div>
+            </div>
+            <div class="card sec1card">
+                <img class="img-fluid" src="images/4.png" alt="">
+                <div class="sec1text1">
+                    Matematika
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+<div class="section-2">
+    <div class="container my-5">
+        <div class="sec2subtitle1"> сертификаты</div>
+        <div class="sec2subtitle2"> КОМПАНИИ</div>
+
+        <div class="owl-carousel owl-theme second-owl">
+            <div class="sec2box">
+                <img class="img-fluid" src="images/5.png" alt="">
+            </div>
+            <div class="sec2box">
+                <img class="img-fluid" src="images/6.png" alt="">
+            </div>
+            <div class="sec2box">
+                <img class="img-fluid" src="images/7.png" alt="">
+            </div>
+            <div class="sec2box">
+                <img class="img-fluid" src="images/5.png" alt="">
+            </div>
+
+</div>
+</div>
+</div>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    $('.first-owl').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        dots:false,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:4
+            }
+        }
+    })
+    $('.second-owl').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        dots:false,
+        autoplay:true,
+        autoplayTimeout:1000,
+        autoplayHoverPause:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:3
+            }
+        }
+    })
+</script>
+</body>
+</html>
